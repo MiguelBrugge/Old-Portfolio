@@ -13,7 +13,7 @@ When you enter the hobby page you will see a new backgroud appear and music play
 <script>
 
         if(cityName == "Hobbies"){
-            document.getElementById('body').style.backgroundImage = "linear-gradient(to top, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.697), rgb(0, 0, 0)),                url('Images/StarWarsBackground.png')";
+            document.getElementById('body').style.backgroundImage = "linear-gradient(to top, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.697), rgb(0, 0, 0)), url('Images/StarWarsBackground.png')";
             playAudio();
         }else{
             document.getElementById('body').style.backgroundImage = "none";
